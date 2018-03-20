@@ -1,0 +1,193 @@
+button {
+	width: inherit;
+	height: inherit;
+}
+
+.row
+{
+    display: table;
+    table-layout: fixed;
+    border-spacing: 0px;
+}
+
+.inputForm {
+	width: 240px;
+	padding-bottom: 2px;
+}
+
+#header {
+	width: 100%;
+	height: 100px;
+	background-image: url("../images/header.png");
+	background-size: 100% auto;
+}
+
+#body {
+	text-align:center;
+}
+
+#calculator {
+	display: table;
+	margin: 0 auto;
+}
+
+#clear {
+	border: 0px solid black;
+	text-align: center;
+	vertical-align: middle;
+	width: 120px;
+	height: 60px;
+	display: table-cell;
+}
+#backspace {
+	border: 0px solid black;
+	text-align: center;
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+	display: table-cell;
+}
+
+#division {
+	border: 0px solid black;
+	text-align: center;
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+	display: table-cell;
+}
+
+#seven {
+	border: 0px solid black;
+	text-align: center;
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+	display: table-cell;
+}
+
+#eight {
+	border: 0px solid black;
+	text-align: center;
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+	display: table-cell;
+}
+
+#nine {
+	border: 0px solid black;
+	text-align: center;
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+	display: table-cell;
+}
+
+#multiply {
+	border: 0px solid black;
+	text-align: center;
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+	display: table-cell;
+}
+
+#four {
+	border: 0px solid black;
+	text-align: center;
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+	display: table-cell;
+}
+
+#five {
+	border: 0px solid black;
+	text-align: center;
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+	display: table-cell;
+}
+
+#six {
+	border: 0px solid black;
+	text-align: center;
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+	display: table-cell;
+}
+
+#minus {
+	border: 0px solid black;
+	text-align: center;
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+	display: table-cell;
+}
+
+#one {
+	border: 0px solid black;
+	text-align: center;
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+	display: table-cell;
+}
+
+#two {
+	border: 0px solid black;
+	text-align: center;
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+	display: table-cell;
+}
+
+#three {
+	border: 0px solid black;
+	text-align: center;
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+	display: table-cell;
+}
+
+#plus {
+	border: 0px solid black;
+	text-align: center;
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+	display: table-cell;
+}
+
+#zero {
+	border: 0px solid black;
+	text-align: center;
+	vertical-align: middle;
+	width: 120px;
+	height: 60px;
+	display: table-cell;
+}
+
+#separator {
+	border: 0px solid black;
+	text-align: center;
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+	display: table-cell;
+}
+
+#equals {
+	border: 0px solid black;
+	text-align: center;
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+	display: table-cell;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+	<script src="js/main.js"></script>
+
+	<title>Amazing Calculator Site</title>
+</head>
+
+<body>
+
+	<div id="page">
+		<div id="header">
+
+		</div>
+
+		<div id="body">
+			<p id='pageTitle'>The amazing calculator site</p>
+			<div id="calculator">
+				<div class="row">
+					<input class="inputForm" id="calculatorInputBox" type="text" name="display" onkeyup="validateRegex(event, this)" placeholder="">
+				</div>
+				<div class="row">
+					<div id="clear"><button onclick="buttonInput('C')">C</button></div>
+					<div id="backspace"><button onclick="buttonInput('del')"><-</button></div>
+					<div id="division"><button onclick="buttonInput('/')">/</button></div>
+				</div>
+				<div class="row">
+					<div id="seven"><button onclick="buttonInput(7)">7</button></div>
+					<div id="eight"><button onclick="buttonInput(8)">8</button></div>
+					<div id="nine"><button onclick="buttonInput(9)">9</button></div>
+					<div id="multiply"><button onclick="buttonInput('*')">x</button></div>
+				</div>
+				<div class="row">
+					<div id="four"><button onclick="buttonInput(4)">4</button></div>
+					<div id="five"><button onclick="buttonInput(5)">5</button></div>
+					<div id="six"><button onclick="buttonInput(6)">6</button></div>
+					<div id="minus"><button onclick="buttonInput('-')">-</button></div>
+				</div>
+				<div class="row">
+					<div id="one"><button onclick="buttonInput(1)">1</button></div>
+					<div id="two"><button onclick="buttonInput(2)">2</button></div>
+					<div id="three"><button onclick="buttonInput(3)">3</button></div>
+					<div id="plus"><button onclick="buttonInput('+')">+</button></div>
+				</div>
+				<div class="row">
+					<div id="zero"><button onclick="buttonInput(0)">0</button></div>
+					<div id="separator"><button onclick="buttonInput('.')">.</button></div>
+					<div id="equals"><button onclick="buttonInput('=')">=</button></div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+		</div>
+	</div>
+
+</body>
+
+</html>
